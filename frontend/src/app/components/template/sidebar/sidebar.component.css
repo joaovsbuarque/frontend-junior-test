@@ -1,0 +1,56 @@
+.sidebar {
+  height: 100%;
+  width: 420px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background: #ffffff;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto {
+  height: 48px;
+  width: 48px;
+  border-radius: 30px;
+  border: 2px solid;
+  margin: 6px;
+  align-items: center;
+}
+
+.header-name {
+  margin-left: 1.5rem;
+}
+
+.header-name h4 {
+  margin-bottom: 0;
+}
+
+.container-info {
+  padding: 0.6rem;
+}
+
+.container-description {
+  padding-top: 0.5rem;
+}
+
+.button-Contato {
+  margin-top: 1rem;
+  width: 280px;
+  height: 48px;
+}
