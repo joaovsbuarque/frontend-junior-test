@@ -4,7 +4,7 @@ import { UserComponent } from "./views/user/user.component";
 import { HomeComponent } from "./views/home/home.component";
 
 const routes: Routes = [
-  { path: "home", component: HomeComponent },
+  { path: "", component: HomeComponent },
   { path: "user", component: UserComponent },
 ];
 
