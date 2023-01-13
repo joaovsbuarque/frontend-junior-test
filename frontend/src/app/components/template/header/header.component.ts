@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { User } from "../user.model";
 
 @Component({
   selector: "app-header",
@@ -6,10 +7,9 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./header.component.css"],
 })
 export class HeaderComponent implements OnInit {
-  atributoLegal = "qualquer";
+  userData: User | undefined;
   constructor() {}
-  ngOnInit(): void {}
-  fazerAlgo(): void {
-    console.log("fazer algo");
+  ngOnInit(): void {
+    this.userData = history.state.data.userData;
   }
 }

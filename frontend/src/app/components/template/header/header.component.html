@@ -4,16 +4,7 @@
       <img class="logo" src="../../../../assets/Search.svg" alt="logo" />
     </a>
   </span>
-  <!-- <mat-form-field appearance="fill">
-    <mat-label>Search countries by name</mat-label>
-    <input />
-    <mat-icon matPrefix>search</mat-icon>
-  </mat-form-field> -->
-  <span>
-    <input class="search" />
-    <button (click)="fazerAlgo()">
-      Buscar
-      <i class="material-icons"> search </i>
-    </button>
-  </span>
+  <div class="container-search">
+    <input class="search" placeholder="{{ userData?.login }}" />
+  </div>
 </mat-toolbar>
