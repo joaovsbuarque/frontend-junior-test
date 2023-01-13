@@ -1,22 +1,17 @@
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
+import { User } from "../components/template/user.model";
 
 @Injectable({
   providedIn: "root",
 })
 export class UserService {
-  apiUrl = "https://api.github.com/users/joaovsbuarque";
-
-  httpOptions = {
-    headers: new HttpHeaders({
-      ContentType: "application/json",
-    }),
-  };
+  baseUrl = "https://api.github.com/users/";
 
   constructor(private httpClient: HttpClient) {}
 
-  public getUsers(user: string): Observable<any> {
-    return this.httpClient.get<any>(this.apiUrl);
+  public getUsers(user: string): Observable<User> {
+    return this.httpClient.get<User>(this.baseUrl + user);
   }
 }
