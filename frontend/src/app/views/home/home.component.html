@@ -1,3 +1,13 @@
-<router-outlet>
-  <a routerLink="/user"> mudar de pagina </a>
-</router-outlet>
+<div class="container">
+  <img src="../../../assets/Search.svg" alt="logo" />
+  <div class="container-search">
+    <input type="text" #username id="username" name="username" />
+    <button
+      mat-raised-button
+      (click)="getUsers(username.value)"
+      class="btn btn-"
+    >
+      Search
+    </button>
+  </div>
+</div>

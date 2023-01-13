@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.container-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.container-search button {
+  background: #8c19d2;
+  color: #ffffff;
+  height: 48px;
+  width: 178px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.container-search input {
+  height: 48px;
+  width: 592px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
