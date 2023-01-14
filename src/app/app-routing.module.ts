@@ -1,11 +1,11 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { UserComponent } from "./views/user/user.component";
+import { PerfilComponent } from "./views/perfil/perfil.component";
 import { HomeComponent } from "./views/home/home.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
-  { path: "user", component: UserComponent },
+  { path: "perfil", component: PerfilComponent },
 ];
 
 @NgModule({

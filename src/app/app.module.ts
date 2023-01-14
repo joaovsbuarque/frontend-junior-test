@@ -3,7 +3,6 @@ import { BrowserModule } from "@angular/platform-browser";
 import { HttpClientModule } from "@angular/common/http";
 
 import { HomeComponent } from "./views/home/home.component";
-import { UserComponent } from "./views/user/user.component";
 import { UserService } from "./service/user.service";
 
 import { AppComponent } from "./app.component";
@@ -15,11 +14,8 @@ import { SidebarComponent } from "./components/template/sidebar/sidebar.componen
 
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatCardModule } from "@angular/material/card";
-import { MatInputModule } from "@angular/material/input";
-import { MatAutocompleteModule } from "@angular/material/autocomplete";
-import { MatFormFieldModule } from "@angular/material/form-field";
-import { MatButtonModule } from "@angular/material/button";
 import { RepositoriosService } from "./service/repositorios.service";
+import { PerfilComponent } from "./views/perfil/perfil.component";
 
 @NgModule({
   declarations: [
@@ -28,19 +24,15 @@ import { RepositoriosService } from "./service/repositorios.service";
     SidebarComponent,
     HomeComponent,
     ReposComponent,
-    UserComponent,
     SearchDirective,
+    PerfilComponent,
   ],
   imports: [
     HttpClientModule,
     BrowserModule,
-    MatInputModule,
     MatToolbarModule,
-    MatAutocompleteModule,
     MatCardModule,
     AppRoutingModule,
-    MatFormFieldModule,
-    MatButtonModule,
   ],
   providers: [UserService, RepositoriosService],
   bootstrap: [AppComponent],
