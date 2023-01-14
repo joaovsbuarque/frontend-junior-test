@@ -52,15 +52,23 @@
   width: 280px;
   height: 48px;
   background-color: #8c19d2;
-  color: #ffffff;
   border: none;
   cursor: pointer;
   border-radius: 6px;
 }
 
+.button-Contato a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .twitter {
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.twitter-link {
+  text-decoration: none;
 }
 
 .link {

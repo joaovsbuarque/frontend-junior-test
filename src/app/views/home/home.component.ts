@@ -29,6 +29,6 @@ export class HomeComponent implements OnInit {
   }
 
   navigateToUserPage(data: gitUser): void {
-    this.router.navigate(["/user"], { state: { data: data } });
+    this.router.navigate(["/perfil"], { state: { data: data } });
   }
 }

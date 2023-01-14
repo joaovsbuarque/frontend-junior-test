@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { DatePipe } from "@angular/common";
 import { Repositorios } from "../repos.model";
 
 @Component({

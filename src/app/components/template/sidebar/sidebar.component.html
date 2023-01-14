@@ -53,7 +53,10 @@
             </a>
           </div>
           <div class="twitter">
-            <a href="https://twitter.com/{{ userData?.twitter_username }}">
+            <a
+              href="https://twitter.com/{{ userData?.twitter_username }}"
+              class="twitter-link"
+            >
               <img src="../../../../assets/Twiter.png" alt="Twitter" />{{
                 userData?.twitter_username
               }}
@@ -63,5 +66,7 @@
       </div>
     </div>
   </mat-card>
-  <button class="button-Contato">Contato</button>
+  <button class="button-Contato">
+    <a href="{{ userData?.html_url }}"> Contato </a>
+  </button>
 </div>

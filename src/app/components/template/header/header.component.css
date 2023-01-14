@@ -15,17 +15,12 @@
 }
 
 .header .search {
-  height: 32px;
-  width: 300px;
-  margin-left: 5rem;
-  border: 0 none;
-}
-
-.search {
   width: 590px;
   height: 48px;
-  border-radius: 4px;
+  margin-left: 5rem;
+  border: 0 none;
   cursor: not-allowed;
+  border-radius: 4px;
 }
 
 .container-search {

@@ -1,5 +1,9 @@
 .card {
-  margin: 4rem;
+  margin: 1rem 2rem 0rem 4rem;
+}
+
+.card:first-child {
+  margin-top: 4rem;
 }
 
 .title {
