@@ -2,6 +2,14 @@
   margin: 4rem;
 }
 
+.title {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+
 .star {
   display: flex;
   flex-direction: row;

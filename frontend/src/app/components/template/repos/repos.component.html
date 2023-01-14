@@ -1,6 +1,10 @@
 <mat-card class="card" *ngFor="let repo of userRepos">
   <mat-card-header>
-    <mat-card-title>{{ repo.name }}</mat-card-title>
+    <mat-card-title
+      ><a href="https://github.com/{{ repo.full_name }}" class="title">{{
+        repo.name
+      }}</a></mat-card-title
+    >
     <mat-card-subtitle>{{ repo.full_name }}</mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>

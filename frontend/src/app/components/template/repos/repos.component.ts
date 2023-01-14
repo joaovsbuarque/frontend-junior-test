@@ -12,7 +12,7 @@ export class ReposComponent implements OnInit {
   ngOnInit(): void {
     this.userRepos = history.state.data.repoData.sort(
       (a: Repositorios, b: Repositorios) => {
-        return a.stargazers_count - b.stargazers_count;
+        return b.stargazers_count - a.stargazers_count;
       }
     );
   }
