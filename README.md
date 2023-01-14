@@ -16,7 +16,7 @@
 
 #### Acessing project directory
 
-`$ cd frontend-junior-test/`
+`$ cd frontend-junior-test`
 
 #### Instaling project dependencies
 
