@@ -7,7 +7,6 @@ import { UserService } from "./service/user.service";
 
 import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
-import { SearchDirective } from "./directives/search.directive";
 import { HeaderComponent } from "./components/template/header/header.component";
 import { ReposComponent } from "./components/template/repos/repos.component";
 import { SidebarComponent } from "./components/template/sidebar/sidebar.component";
@@ -24,7 +23,6 @@ import { PerfilComponent } from "./views/perfil/perfil.component";
     SidebarComponent,
     HomeComponent,
     ReposComponent,
-    SearchDirective,
     PerfilComponent,
   ],
   imports: [
